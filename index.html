@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> my webpage </title>
+    <meta charset="utf-8">
+    <meta name="descirption" content="webpage, with buttons ">
+    <meta name="keywords" content="Mths,website">
+    <meta name="author" content="Ahmad-El-khawaldeh">
+    <meta name="viewport" content="width=device-width,intial-scale1.0">
+   </head>
+   <body>
+       <input type="text" id="rama" value="">
+       <button onclick="myfunction()">calculate the area of square</button>
+       <script>
+       function myfunction() {
+       let squareLength;
+       let squareArea;
+       squareLength=document.getElementById("rama").value;
+       squareArea=squareLength*squareLength;
+       alert ("the area of the square is "+ squareArea)
+       }
+       </script>
+       <p>type in the square's length to calculate the area</p>
+   </body>
